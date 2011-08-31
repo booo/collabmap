@@ -1,0 +1,13 @@
+!!!
+html
+  head
+    link(rel="stylesheet", type="text/css", href="/css/style.css")
+
+    script(src="http://openlayers.org/api/OpenLayers.js")
+    script(src="http://localhost:1338/socket.io/socket.io.js")
+    script(src="./js/openlayers.js")
+    script
+      var title = !{JSON.stringify(title)}
+  body(onload="init();")
+    div#map
+
