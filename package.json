@@ -1,0 +1,14 @@
+{
+  "author": "Philipp Borgers <borgers@mi.fu-berlin.de>",
+  "name": "collabmap",
+  "description": "collaborative map drawing",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "node": "~v0.4.9"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
