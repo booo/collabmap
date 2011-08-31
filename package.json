@@ -9,6 +9,10 @@
   "engines": {
     "node": "~v0.4.9"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*",
+    "pg": "*"
+  },
   "devDependencies": {}
 }
