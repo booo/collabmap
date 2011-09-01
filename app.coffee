@@ -9,8 +9,7 @@ app = express.createServer()
 
 app.set "view engine", "jade"
 
-app.use express.compiler { src: __dirname + "/static", enable: ["less"]}
-
+app.use express.compiler { src: __dirname + "/static", enable: ["less", "coffeescript"]}
 app.use express.static __dirname + "/static"
 
 app.use app.router
