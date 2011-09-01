@@ -1,3 +1,5 @@
+#!/usr/bin/env coffee
+
 pg = require "pg"
 express = require "express"
 io = require "socket.io"
@@ -6,6 +8,8 @@ rbytes = require "rbytes"
 app = express.createServer()
 
 app.set "view engine", "jade"
+
+app.use express.compiler { src: __dirname + "/static", enable: ["less"]}
 
 app.use express.static __dirname + "/static"
 
